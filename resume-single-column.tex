@@ -63,21 +63,21 @@
 
 \roottitle{Experience}
 
-\headedsection
-% \href{https://addons.mozilla.org/en-US/firefox/}{mozilla.addons.org}
-{\textscale{0.9}{\textbf{Open Source developer}}}
-  {\textsc{Remote}}
-  {%
-    \headedsubsection
-    {}
-    {Aug 2018 -- present}
-    {
-      \begin{itemize}
-        \item Contributing code to \href{https://www.softwaredaily.com/}{Software Daily} android repository.
-        \item Fixing \href{https://wiki.mozilla.org/Add-ons/Contribute/Recognition\#August_2018}{good-first-bugs} of \href{https://addons.mozilla.org/en-US/firefox/}{mozilla.addons.org} project.
-      \end{itemize}
-    }
-  }
+%\headedsection
+%% \href{https://addons.mozilla.org/en-US/firefox/}{mozilla.addons.org}
+%{\textscale{0.9}{\textbf{Open Source developer}}}
+%  {\textsc{Remote}}
+%  {%
+%    \headedsubsection
+%    {}
+%    {Aug 2018 -- present}
+%    {
+%      \begin{itemize}
+%        \item Contributing code to \href{https://www.softwaredaily.com/}{Software Daily} android repository.
+%        \item Fixing \href{https://wiki.mozilla.org/Add-ons/Contribute/Recognition\#August_2018}{good-first-bugs} of \href{https://addons.mozilla.org/en-US/firefox/}{mozilla.addons.org} project.
+%      \end{itemize}
+%    }
+%  }
 
 \headedsection
   {\href{http://bitstreet.in/}{Bitstreet Technologies}}
@@ -89,12 +89,11 @@
     {
       \begin{itemize}
         \item Managed multiple repositories. Encouraged use of \textbf{Git-flow} design among team of 4 developers.
-        \item Contributions in logical and persistence tier. Bitcoin gateway integration, setup bitcoin cash wallet app end-to-end. Got opportunity to develop algorithms for processing background tasks.
-        \item Developed Multi-factor Authentication(2FA) with backup \& recovery options.
-        \item Secured user accounts using \href{https://rihbyne.github.io/blog/user-auth/}{\textbf{salting \& hashing}} technique.
-        \item \href{https://rihbyne.github.io/blog/hmac-authentication/}{\textbf{HMAC Authentication \& Signing}} applied to JSON-REST/RPC API calls.
+        \item Contributions in logical and persistence tier, bitcoin(BTC) gateway integration, setup experimental bitcoin cash(BCH) \href{https://rihbyne.github.io/diy/digital-wallet/}{\textbf{wallet app}} end-to-end, batch process transaction metadata.
+        \item Secured user accounts using \href{https://rihbyne.github.io/blog/user-auth/}{\textbf{salting \& hashing}} technique and Multi-factor Authentication(2FA) with backup \& recovery options.
+        \item \href{https://rihbyne.github.io/blog/hmac-authentication/}{\textbf{HMAC \& Signing}} applied to JSON-REST/RPC API calls.
         \item Studied \& implemented \href{https://rihbyne.github.io/diy/nonce-auth-systems/}{\textbf{Nonce}} as an addition to secure message passing between internal services as a defense against replay attacks.
-        \item Developed stateless cursor based pagination API at scale, spanning data over multiple MongoDB collections(\textit{was reused twice in different application context in production}).
+        \item Developed stateless cursor based \href{https://rihbyne.github.io/diy/stateless-pagination/}{\textbf{pagination API}} at scale, spanning data over multiple MongoDB \href{https://rihbyne.github.io/diy/notification-core/}{\textbf{collections}}(\textit{was reused twice in different application context in production}).
         \item Used \href{https://rihbyne.github.io/diy/multi-tenancy/}{\textbf{software multitenancy}} on application server to share common set of resources among different tenants using (Role-based Access Control)RBAC and database isolation.
         \item Produced supportive documentation and designed system diagrams.
       \end{itemize}
@@ -134,15 +133,31 @@
   {\textsc{California, U.S.A}} {%
   \headedsubsection
     {Master of Science(M.S) in Computer Science}
-    {Jan 2018 -- Dec 2019(expected)} {}
-}
+    {Jan 2018 -- Dec 2019(expected)}
+    {
+      \begin{itemize}
+        \item Presented `\textit{Macaroons as better web cookies}` as part of COMP 524 Security class
+        \item Presented `\textit{Scalable Web Architectures(SWA)}` as part of COMP 599 Graduate Seminar
+        \item Produced a report on `\textit{Image Segmentation methods}` as part of COMP 510 Adv. Image Analysis Techniques
+        \item Compiled a report on `\textit{Financial Analysis between Heineken vs Boston Beer}` as part of BUS 504 Finance \& Accounting class
+        \item resolved a small UI patch under \href{https://wiki.mozilla.org/Add-ons/Contribute/Recognition\#August_2018}{good-first-bugs} of \href{https://addons.mozilla.org/en-US/firefox/}{mozilla.addons.org} project.
+        \item Sketched a interactive \href{https://github.com/rihbyne/watch-ml-behave}{dashboard} as part of COMP 549 HCI class using python-tkinter GUI lib/flask, which integrates an existing handwritten recognition neural network, allows to load/configure/save versions of it. 
+        \item Implemented CBC mode to systematically encrypt/decrypt a large plaintext file using 16 rounds of 64-bit DES.
+      \end{itemize}
+    }
+  }
 
 \headedsection
   {\href{http://www.mu.ac.in/}{Mumbai University, St. Francis Institute of Technology}}
   {\textsc{Mumbai, India}} {%
   \headedsubsection
     {Bachelor of Engineering(B.S) in Information Technology}
-    {June 2010 -- May 2014} {}
+    {June 2010 -- May 2014}
+    {
+      \begin{itemize}
+        \item Senior year project on data-driven IoT application using nodeJS/expressJS/raspberrypi
+      \end{itemize}
+    }
 }
 
 \spacedhrule{0.5em}{-0.4em}
@@ -152,7 +167,7 @@
 % \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
 \inlineheadedsection
 {\textbf{Tools \& Programming:}}
-{Knows Python/\nsp Javascript/\nsp Node.js} and Java. Emacs user. Experience writing secure REST APIs in Django, Expess.js.Familiar with Memcached, MongoDB, MySQLDB deployment(e.g indexing, migrations). Enjoys challenges to architect and implement scalable web applications. Hands-on Debian Linux(e.g bash scripting). Well versed with Git.
+{Knows Python/\nsp Javascript/\nsp Node.js} and Java. Semantic HTML5/CSS3. Emacs user. Experience writing secure REST APIs in Django/Flask/Expess.js. Familiar with Memcached, MongoDB, MySQLDB(e.g indexing, schema migrations). Enjoys challenges to architect and implement scalable web applications. Linux Power User. Well versed with Git.
 
 %{
 %  \headedsubsection

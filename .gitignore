@@ -2,3 +2,6 @@
 *.log
 *.out
 *.synctex.gz
+auto/
+*.el
+resume-rihan-pereira.pdf

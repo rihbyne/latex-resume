@@ -2,13 +2,13 @@
  "resume-single-column"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
-                     '(("article" "10pt" "a4paper")))
+                     '(("article" "11pt" "a4paper")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("geometry" "a4paper" "margin=0.75in") ("babel" "english")))
+                     '(("geometry" "a4paper" "margin=0.5in") ("babel" "english")))
    (TeX-run-style-hooks
     "latex2e"
     "article"
-    "art10"
+    "art11"
     "geometry"
     "babel")
    (TeX-add-symbols
